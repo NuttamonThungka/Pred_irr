@@ -148,10 +148,10 @@ def group_table(df, name_model, base = 'I', score = 'MAE', by = None):
             dfh[name_model[i]] = abs(df[base]-df[name_model[i]])**2
         return np.sqrt(dfh.groupby(by=by).mean()).reset_index()
     
-FOLDER_MODEL = '/Users/khunnoot/Desktop/predict_irradiance/trainning/model'
+
 result_model = 'compare_model_result.csv'
 sns.set(style="whitegrid")
-compare = pd.read_csv(os.path.join(FOLDER_MODEL,result_model), parse_dates = ['Datetime'], index_col = ['Datetime'])
+compare = pd.read_csv(result_model), parse_dates = ['Datetime'], index_col = ['Datetime'])
 
 
 name_model = ['OLS','poly','yXGB', 'yRF', 'CNN']
