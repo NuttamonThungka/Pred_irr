@@ -158,7 +158,7 @@ name_model = ['OLS','poly','yXGB', 'yRF', 'CNN']
 eva_table(compare, name_model, base = 'I').round(3).iloc[:,[0,2,3,4,5]]
 
 st.write("""
-## Hourly MAE
+## Hourly MAE ($W/m^2$)
 """)
 
 name_model = ['OLS','poly','yXGB', 'yRF', 'CNN']
