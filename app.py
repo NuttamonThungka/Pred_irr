@@ -35,7 +35,7 @@ irradiance_df['RandomForest'] = loaded_RF_model.predict(Synergy_test)
 
 
 st.write("""
-##### Predicting solar irradiance using satellite images
+# Predicting solar irradiance using satellite images
 
 This product aims to provide ground irradiance estimation at Synergy Technology Co., Ltd. by using a cloud attenuation model that takes cloud cover index extracted from Himawari-8 satellite as an input.
 
