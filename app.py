@@ -151,7 +151,7 @@ def group_table(df, name_model, base = 'I', score = 'MAE', by = None):
 
 result_model = 'compare_model_result.csv'
 sns.set(style="whitegrid")
-compare = pd.read_csv(result_model), parse_dates = ['Datetime'], index_col = ['Datetime'])
+compare = pd.read_csv('compare_model_result.csv'), parse_dates = ['Datetime'], index_col = ['Datetime'])
 
 
 name_model = ['OLS','poly','yXGB', 'yRF', 'CNN']
