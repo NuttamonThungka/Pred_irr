@@ -152,14 +152,13 @@ sns.set(style="whitegrid")
 compare = pd.read_csv(result_model, parse_dates = ['Datetime'], index_col = ['Datetime'])
 
 
-name_model = ['OLS','poly','yXGB', 'yRF', 'CNN']
+name_model = ['OLS [w/m^2]','poly [w/m^2]','yXGB [w/m^2]', 'yRF [w/m^2]', 'CNN [w/m^2]']
 eva_table(compare, name_model, base = 'I').round(3).iloc[:,[0,2,3,4,5]]
 
 st.write("""
 ## Hourly MAE (W/m^2)
 """)
 
-name_model = ['OLS','poly','yXGB', 'yRF', 'CNN']
 q = group_table(compare, name_model, base = 'I').drop(columns=['I'])
 q.rename(columns = {'Datetime':'Hour'}, inplace = True)
 # q.set_index('Hour',inplace = True)
