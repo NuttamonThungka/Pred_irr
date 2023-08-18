@@ -22,8 +22,6 @@ from PIL import Image
 # Load your irradiance data DataFrame
 # Replace this with your actual data loading code
 
-# FOLDER_TEST = '/Users/khunnoot/Desktop/predict_irradiance/implementation/data'
-# FOLDER_MODEL = '/Users/khunnoot/Desktop/predict_irradiance/trainning/model'
 
 test = 'Synergy_testset.csv'
 RF_model = 'RandomForest.joblib'
@@ -158,7 +156,7 @@ name_model = ['OLS','poly','yXGB', 'yRF', 'CNN']
 eva_table(compare, name_model, base = 'I').round(3).iloc[:,[0,2,3,4,5]]
 
 st.write("""
-## Hourly MAE ($W/m^2$)
+## Hourly MAE (W/m^2)
 """)
 
 name_model = ['OLS','poly','yXGB', 'yRF', 'CNN']
