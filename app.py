@@ -126,7 +126,7 @@ def eva_table(df, name_model, base = 'I',):
         non_noon_MAE = mean_absolute_error(dfnonnoon[base],dfnonnoon[name_model[i]])
         non_noon_RMSE = np.sqrt(mean_squared_error(dfnonnoon[base],dfnonnoon[name_model[i]]))
         
-        data.append({'Overall MAE':MAE, 'Overall RMSE':RMSE, 'MAE at noon':noon_MAE, 'RMSE at noon':noon_RMSE,
+        data.append({'Overall MAE [$W/m^2$]':MAE, 'Overall RMSE [$W/m^2$]':RMSE, 'MAE at noon [$W/m^2$]':noon_MAE, 'RMSE at noon [$W/m^2$]':noon_RMSE,
                     'MAE at non-noon':non_noon_MAE, 'RMSE at non-noon':non_noon_RMSE})
     df = pd.DataFrame(data)
     df.index = name_model
