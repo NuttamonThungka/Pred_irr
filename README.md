@@ -7,7 +7,7 @@ This product aims to provide ground irradiance estimation at Synergy Technology 
 
 ## Web app
 
-[Predicting solar irradiance using satellite images](http://192.168.1.68:8501/)
+[Predicting solar irradiance using satellite images](https://predirr-ixgmley8iuerkfnbm9ap4t.streamlit.app/)
 <p align="center">
   <img src="https://github.com/NuttamonThungka/Predict_irradiance/assets/113121308/844f631a-2840-4d1a-95fb-5134eef8038a" width="900" height="500" />
 </p>
