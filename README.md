@@ -23,7 +23,12 @@ This repository is composed of the following folders
 - ```requirements.txt``` is the requirements of the module version that use in this project
 
 2. create git hub with using to connect the streamlit to deploy the web application
-3. go to streamlit web and sign in/ log in
-4. you can connect with your git hub
+3. go to streamlit web and sign in/ log in (you can also connect with your git hub)
+4. In streamlit website :
+   - 4.1 you go to click ```New app```
+   - 4.2 selected repository with includ 5 files in 1.
+   - 4.3 Branch : ```main```
+   - 4.4 Main file app : ```app.py```
+   - 4.5 click : ```Deploy```
 
 
