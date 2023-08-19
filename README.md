@@ -15,7 +15,17 @@ This repository is composed of the following folders
   <img src="https://github.com/NuttamonThungka/Predict_irradiance/assets/113121308/844f631a-2840-4d1a-95fb-5134eef8038a" width="900" height="500" />
 </p>
 
-1. Download 5 files to deploy the web application.
+## Deploy in local host
+1. Clone git : ```git clone https://github.com/NuttamonThungka/Pred_irr.git```
+2. Create a new conda environment : ```conda create -n pred_irr```
+3. Activate the conda : ```conda activate pred_irr```
+4. Go to the folde : ```cd <path to folder>```
+5. Install the requirments to run the app.py ```pip install -r requirments.txt```
+6. Run the ```app.py``` with using streamlit : ```streamlit run app.py```
+
+
+## Deploy in streamlit web
+1. Upload 5 files to deploy the web application.
 - ```app.py``` is the python code to run the web application
 - ```Synergy_testset.csv``` is the input of the model to generate the predicted irradiance
 - ```RandomForest.joblib``` is the propesed model usinf random forest model
