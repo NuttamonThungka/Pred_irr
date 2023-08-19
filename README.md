@@ -15,7 +15,15 @@ This repository is composed of the following folders
   <img src="https://github.com/NuttamonThungka/Predict_irradiance/assets/113121308/844f631a-2840-4d1a-95fb-5134eef8038a" width="900" height="500" />
 </p>
 
-1. Clone the github : ```git clone https://github.com/NuttamonThungka/Pred_irr.git```
-2. Go to the folder ```Pred_irr```
-3. Install streamlit : ```pip install streamlit```
-4. run web app in localhost : ```streamlit run app.py```
+1. Download 5 files to deploy the web application.
+- ```app.py``` is the python code to run the web application
+- ```Synergy_testset.csv``` is the input of the model to generate the predicted irradiance
+- ```RandomForest.joblib``` is the propesed model usinf random forest model
+- ```compare_model_result.csv``` is the result data of each trained model
+- ```requirements.txt``` is the requirements of the module version that use in this project
+
+2. create git hub with using to connect the streamlit to deploy the web application
+3. go to streamlit web and sign in/ log in
+4. you can connect with your git hub
+
+
