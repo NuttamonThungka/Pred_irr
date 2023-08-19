@@ -25,15 +25,14 @@ This repository is composed of the following folders
 
 
 ## Deploy in streamlit web
-1. Upload 5 files to deploy the web application.
+1. Create git hub repository and upload 5 files to deploy the web application in streamlit.
 - ```app.py``` is the python code to run the web application
 - ```Synergy_testset.csv``` is the input of the model to generate the predicted irradiance
 - ```RandomForest.joblib``` is the propesed model usinf random forest model
 - ```compare_model_result.csv``` is the result data of each trained model
 - ```requirements.txt``` is the requirements of the module version that use in this project
 
-2. create git hub with using to connect the streamlit to deploy the web application
-3. go to streamlit web and sign in/ log in (you can also connect with your git hub)
+3. go to [streamlit web](https://streamlit.io/) and sign in/ log in (you can also connect with your git hub)
 4. In streamlit website :
    - 4.1 you go to click ```New app```
    - 4.2 selected repository with includ 5 files in 1.
