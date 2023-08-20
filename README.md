@@ -32,12 +32,12 @@ This repository is composed of the following folders
 - ```compare_model_result.csv``` is the result data of each trained model
 - ```requirements.txt``` is the requirements of the module version that use in this project
 
-3. go to [streamlit web](https://streamlit.io/) and sign in/ log in (you can also connect with your git hub)
-4. In streamlit website :
-   - 4.1 you go to click ```New app```
-   - 4.2 selected repository with includ 5 files in 1.
-   - 4.3 Branch : ```main```
-   - 4.4 Main file app : ```app.py```
-   - 4.5 click : ```Deploy```
+2. go to [streamlit web](https://streamlit.io/) and sign in/ log in (you can also connect with your git hub)
+3. In streamlit website :
+   - 3.1 you go to click ```New app```
+   - 3.2 selected repository with includ 5 files in 1.
+   - 3.3 Branch : ```main```
+   - 3.4 Main file app : ```app.py```
+   - 3.5 click : ```Deploy```
 
 
