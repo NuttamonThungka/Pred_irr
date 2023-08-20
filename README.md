@@ -20,7 +20,7 @@ This repository is composed of the following folders
 2. Create a new conda environment : ```conda create -n pred_irr```
 3. Activate the conda : ```conda activate pred_irr```
 4. Go to the folder Pred_irr : ```cd <path to folder>```
-5. Install the requirments to run the app.py ```pip install -r requirments.txt```
+5. Install the requirments to run the app.py ```pip install -r requirements.txt```
 6. Run the ```app.py``` with using streamlit : ```streamlit run app.py```
 
 
